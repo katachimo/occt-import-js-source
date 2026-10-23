@@ -1,11 +1,11 @@
 # occt-import-js 0.0.23 + Open CASCADE Technology 7.6.1 — corresponding source
 
 This repository holds an **unmodified copy** of the source code of the LGPL-licensed library that
-[Katachimo](https://katachimo.com/) uses to open STEP / IGES files. It is published so that
-anyone who receives the library from Katachimo can obtain its complete corresponding source, as
+[katachimo](https://katachimo.com/) uses to open STEP / IGES files. It is published so that
+anyone who receives the library from katachimo can obtain its complete corresponding source, as
 required by the GNU Lesser General Public License version 2.1.
 
-Katachimo's own code is not part of this repository.
+katachimo's own code is not part of this repository.
 
 ## What is here
 
@@ -21,9 +21,9 @@ could not be reached on 2026-10-10. The same commit was taken from the official 
 Nothing has been changed. Build scripts are in `occt-import-js-0.0.23/tools/` and
 `occt-import-js-0.0.23/CMakeLists.txt` (Emscripten; see the upstream README).
 
-## Files Katachimo distributes
+## Files katachimo distributes
 
-Katachimo serves these files from `occt-import-js-0.0.23/dist/` without modification:
+katachimo serves these files from `occt-import-js-0.0.23/dist/` without modification:
 
 | File | SHA-256 |
 |---|---|
@@ -46,14 +46,14 @@ with a modified build of your own.
 
 # 日本語
 
-[Katachimo](https://katachimo.com/) が STEP / IGES の読込に使っている LGPL のライブラリの、
-**未改変のソースの写し**です。LGPL 2.1 に従い、Katachimo からこのライブラリを受け取った人が
-対応するソースを入手できるように公開しています。Katachimo 本体のコードは含みません。
+[katachimo](https://katachimo.com/) が STEP / IGES の読込に使っている LGPL のライブラリの、
+**未改変のソースの写し**です。LGPL 2.1 に従い、katachimo からこのライブラリを受け取った人が
+対応するソースを入手できるように公開しています。katachimo 本体のコードは含みません。
 
 - `occt-import-js-0.0.23/`: occt-import-js のタグ `0.0.23`
 - `occt-import-js-0.0.23/occt/`: Open CASCADE Technology のコミット `d2abb6d`(7.6.1)。
   サブモジュールの接続先に 2026-10-10 時点でつながらなかったため、公式の GitHub
   (`Open-Cascade-SAS/OCCT`)から同じコミットを取り、ファイルとして置いています
-- 変更は加えていません。Katachimo が配信している `dist/` のファイルの SHA-256 は上の表のとおりです
+- 変更は加えていません。katachimo が配信している `dist/` のファイルの SHA-256 は上の表のとおりです
 - これらのファイルは STEP / IGES を開いたときだけ別ファイルとして読み込まれ、自分でビルドした
   改変版に差し替えて使うことができます
